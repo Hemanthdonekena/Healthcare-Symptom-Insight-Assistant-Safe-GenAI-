@@ -1,0 +1,419 @@
+query,no_rag_answer,rag_answer,rag_used,judge_winner,judge_notes,A_avg,B_avg,A_relevance,A_grounding,A_safety,A_hallucination_control,A_clarity,B_relevance,B_grounding,B_safety,B_hallucination_control,B_clarity
+fever nausea,"1) Possible related topics: viral infections, food poisoning, dehydration, influenza, gastroenteritis
+
+2) Informational explanation: Fever and nausea are common symptoms that can occur with various conditions, including infections (like the flu or stomach viruses), food-related illnesses, or other medical issues. Fever is the body's response to fight infection, while nausea may result from irritation of the stomach or other systemic effects.
+
+3) General self-care: Rest, stay hydrated with clear fluids, eat bland foods if tolerated, and monitor your temperature. Over-the-counter fever reducers like acetaminophen or ibuprofen may help, but follow dosing instructions carefully.
+
+4) When to seek care: If fever is very high (above 103°F/39.4°C), lasts more than 3 days, is accompanied by severe abdominal pain, persistent vomiting, dehydration signs (dizziness, dry mouth, little urine), confusion, or difficulty breathing, seek medical attention promptly.","1) Related topics:
+- Cryptosporidiosis
+- Dengue
+- Polio and Post-Polio Syndrome
+- Mosquito Bites
+- H1N1 Flu (Swine Flu)
+
+2) What these symptoms could relate to:
+Fever and nausea are common symptoms in several conditions including infections caused by parasites (Cryptosporidiosis), viruses transmitted by mosquitoes (Dengue, Mosquito Bites), viral infections like Polio and H1N1 flu. These symptoms may indicate an underlying infection or illness.
+
+3) General self-care:
+- Stay hydrated by drinking plenty of fluids.
+- Rest as much as possible.
+- Use fever reducers like acetaminophen or ibuprofen if appropriate.
+- Avoid exposure to mosquitoes if relevant.
+- Maintain good hygiene and food safety practices.
+
+4) When to seek care:
+Seek medical care if symptoms are severe, worsening, or if you experience emergency warning signs such as trouble breathing, chest pain, confusion, or persistent high fever.
+
+5) Sources:
+- https://medlineplus.gov/cryptosporidiosis.html
+- https://medlineplus.gov/dengue.html
+- https://medlineplus.gov/polioandpostpoliosyndrome.html
+- https://medlineplus.gov/mosquitobites.html
+- https://medlineplus.gov/h1n1fluswineflu.html",yes,B,"Answer B is well grounded with multiple cited sources directly matching the retrieved documents, providing specific conditions linked to fever and nausea. Both answers are relevant, safe, clear, and avoid hallucinations, but B's explicit citations and alignment with context give it higher grounding.",4.4,5.0,5,2,5,5,5,5,5,5,5,5
+cough cold,"1) Possible related topics:
+- Common cold
+- Allergies
+- Viral respiratory infections
+- Sinusitis
+
+2) Informational explanation:
+A cough and cold are often caused by viral infections affecting the upper respiratory tract. Symptoms typically include a runny or stuffy nose, sneezing, sore throat, and mild cough. These symptoms usually resolve within a week or two.
+
+3) General self-care:
+- Rest and stay hydrated
+- Use saline nasal sprays or humidifiers to ease congestion
+- Over-the-counter pain relievers and cough suppressants may help symptom relief
+- Avoid irritants like smoke and strong odors
+
+4) When to seek care:
+- High fever lasting more than 3 days
+- Difficulty breathing or shortness of breath
+- Persistent chest pain or wheezing
+- Cough producing blood or green/yellow mucus lasting more than 10 days
+- Symptoms worsening or not improving after 2 weeks",,no,A,"Answer A is relevant, clear, safe, and avoids hallucinations. Grounding is moderate as no explicit sources are cited but information is standard and accurate. No answer B provided.",4.6,,5,3,5,5,5,,,,,
+sore throat fever,"1) Possible related topics:
+- Viral pharyngitis (common cold, flu)
+- Strep throat (bacterial infection)
+- Tonsillitis
+- Infectious mononucleosis
+
+2) Informational explanation:
+A sore throat with fever can be caused by various infections, often viral but sometimes bacterial. Viral infections usually improve on their own, while bacterial infections like strep throat may require medical treatment.
+
+3) General self-care:
+- Rest and stay hydrated
+- Use throat lozenges or warm saltwater gargles
+- Take over-the-counter pain relievers like acetaminophen or ibuprofen as directed
+- Avoid irritants like smoke
+
+4) When to seek care:
+- Difficulty breathing or swallowing
+- High fever (above 103°F or 39.5°C) or fever lasting more than 3 days
+- Severe throat pain or swelling
+- White patches or pus on the tonsils
+- Rash or joint pain
+- Symptoms worsening or not improving after several days","1) Related topics:
+- H1N1 Flu (Swine Flu)
+- Polio and Post-Polio Syndrome
+- Infectious Mononucleosis
+- Bird Flu
+- HIV
+
+2) What these symptoms could relate to:
+A sore throat and fever are common symptoms in several viral infections such as swine flu (H1N1), polio, infectious mononucleosis, bird flu, and early HIV infection. These symptoms indicate your body is fighting an infection.
+
+3) General self-care:
+- Rest and stay hydrated.
+- Use over-the-counter pain relievers or fever reducers as directed.
+- Gargle with warm salt water to soothe a sore throat.
+- Practice good hygiene to avoid spreading infection (cover coughs, wash hands).
+
+4) When to seek care:
+- If symptoms are severe or worsening.
+- If you experience trouble breathing, chest pain, confusion.
+- If fever persists at a high level.
+- If you have other concerning symptoms like persistent fatigue or swollen lymph nodes.
+
+5) Sources:
+https://medlineplus.gov/h1n1fluswineflu.html  
+https://medlineplus.gov/polioandpostpoliosyndrome.html  
+https://medlineplus.gov/infectiousmononucleosis.html  
+https://medlineplus.gov/birdflu.html  
+https://medlineplus.gov/hiv.html",yes,B,"Answer B is better grounded with multiple cited sources directly aligned with the retrieved documents, improving its grounding score. Both answers are relevant and safe, but B provides more specific source citations. Clarity is slightly better in A, but B is still clear.",4.4,4.6,5,2,5,5,5,4,5,5,5,4
+headache nausea,"1) Possible related topics:
+- Migraine
+- Tension headache
+- Dehydration
+- Viral infection (e.g., flu)
+- Medication side effects
+
+2) Informational explanation:
+Headache and nausea can occur together due to various causes, including migraines, infections, or dehydration. Migraines often cause throbbing headaches with nausea, while tension headaches may cause milder symptoms. Nausea can also result from gastrointestinal issues or medication reactions.
+
+3) General self-care:
+- Rest in a quiet, dark room
+- Stay hydrated with water or electrolyte drinks
+- Avoid strong smells and bright lights
+- Use over-the-counter pain relievers as directed
+- Eat light, bland foods if tolerated
+
+4) When to seek care:
+- Sudden, severe headache unlike any before
+- Headache with fever, stiff neck, confusion, or vision changes
+- Persistent vomiting or inability to keep fluids down
+- Weakness, numbness, or difficulty speaking
+- Headache following head injury","1) Related topics:
+- Polio and Post-Polio Syndrome
+- Mosquito Bites
+- H1N1 Flu (Swine Flu)
+- Cryptosporidiosis
+- Dengue
+
+2) What these symptoms could relate to:
+Headache and nausea are common symptoms in several conditions including viral infections like polio, mosquito-borne illnesses, flu (H1N1), and dengue, as well as parasitic infections like cryptosporidiosis.
+
+3) General self-care:
+- Rest and stay hydrated.
+- Use over-the-counter pain relievers for headache if appropriate.
+- Avoid exposure to mosquitoes and maintain good hygiene.
+- Monitor symptoms closely.
+
+4) When to seek care:
+Seek medical care if symptoms are severe, worsening, or if you experience emergency warning signs such as trouble breathing, chest pain, confusion, or persistent high fever.
+
+5) Sources:
+- https://medlineplus.gov/polioandpostpoliosyndrome.html
+- https://medlineplus.gov/mosquitobites.html
+- https://medlineplus.gov/h1n1fluswineflu.html
+- https://medlineplus.gov/cryptosporidiosis.html
+- https://medlineplus.gov/dengue.html",yes,tie,Answer A is highly relevant and clear with good safety and minimal hallucination but lacks explicit citations. Answer B is well grounded with sources and good hallucination control but less relevant to common causes of headache and nausea and less clear.,4.2,4.4,5,2,5,4,5,3,5,5,5,4
+diarrhea stomach cramps,"1) Possible related topics:
+- Gastroenteritis (stomach flu)
+- Food poisoning
+- Irritable bowel syndrome (IBS)
+- Medication side effects
+
+2) Informational explanation:
+Diarrhea and stomach cramps can result from infections, food intolerances, stress, or reactions to medications. These symptoms occur when the digestive system is irritated or inflamed, leading to increased bowel movements and abdominal discomfort.
+
+3) General self-care:
+- Stay hydrated with water, oral rehydration solutions, or clear broths.
+- Eat bland, easy-to-digest foods like bananas, rice, applesauce, and toast (BRAT diet).
+- Avoid caffeine, alcohol, and fatty or spicy foods.
+- Rest and avoid strenuous activity.
+
+4) When to seek care:
+- High fever (above 101.5°F or 38.6°C)
+- Blood or pus in stool
+- Severe or persistent abdominal pain
+- Signs of dehydration (dizziness, dry mouth, decreased urination)
+- Diarrhea lasting more than 2 days in adults or 24 hours in children","1) Related topics:
+- Cryptosporidiosis
+- Foodborne Illness
+- Diarrhea
+- Period Pain
+
+2) What these symptoms could relate to:
+Diarrhea and stomach cramps can be symptoms of infections such as cryptosporidiosis or foodborne illnesses caused by bacteria, viruses, or parasites. They may also be related to general diarrhea causes or, in some cases, menstrual-related issues.
+
+3) General self-care:
+- Stay hydrated by drinking plenty of fluids.
+- Rest as needed.
+- Avoid foods that may irritate your stomach.
+- Practice good hygiene to prevent spread if infectious.
+
+4) When to seek care:
+Seek medical care if symptoms are severe, worsening, or if you experience emergency warning signs such as trouble breathing, chest pain, confusion, or persistent high fever.
+
+5) Sources:
+- https://medlineplus.gov/cryptosporidiosis.html
+- https://medlineplus.gov/foodborneillness.html
+- https://medlineplus.gov/diarrhea.html
+- https://medlineplus.gov/periodpain.html",yes,B,"Answer B is well grounded with direct citations from provided documents and includes relevant symptoms and seek-care guidance. Answer A is relevant and safe but lacks explicit source citations, lowering grounding score.",4.4,5.0,5,2,5,5,5,5,5,5,5,5
+rash fever,"1) Possible related topics:
+- Viral infections (e.g., measles, chickenpox)
+- Allergic reactions
+- Bacterial infections (e.g., scarlet fever)
+- Heat rash or drug reactions
+
+2) Informational explanation:
+A rash accompanied by fever can indicate an infection or an allergic response. Viral and bacterial infections often cause systemic symptoms like fever along with skin changes. Allergic reactions may also present with rash and sometimes fever if severe.
+
+3) General self-care:
+- Keep the skin clean and dry.
+- Use cool compresses to soothe itching.
+- Avoid known allergens or irritants.
+- Stay hydrated and rest.
+- Use over-the-counter fever reducers like acetaminophen or ibuprofen as directed.
+
+4) When to seek care:
+- Rash spreads rapidly or is painful.
+- Difficulty breathing or swelling of face/throat.
+- High fever (above 103°F or 39.5°C) or fever lasting more than 3 days.
+- Presence of blisters, pus, or signs of infection.
+- Confusion, persistent vomiting, or lethargy.","1) Related topics:
+- Lyme Disease
+- Dengue
+- Infectious Mononucleosis
+- HIV
+- H1N1 Flu (Swine Flu)
+
+2) What these symptoms could relate to:
+A rash and fever can be symptoms of various infections including Lyme disease (often from tick bites), dengue (from mosquito bites), infectious mononucleosis (viral infection), HIV, or flu-like illnesses such as H1N1. Each condition has additional specific symptoms and causes.
+
+3) General self-care:
+- Rest and stay hydrated.
+- Use fever reducers like acetaminophen or ibuprofen if appropriate.
+- Avoid scratching the rash to prevent irritation or infection.
+- Monitor symptoms closely.
+
+4) When to seek care:
+- If symptoms are severe or worsening.
+- If you experience emergency warning signs such as trouble breathing, chest pain, confusion, or persistent high fever.
+- If rash spreads rapidly or is accompanied by other concerning symptoms.
+
+5) Sources:
+- https://medlineplus.gov/lymedisease.html
+- https://medlineplus.gov/dengue.html
+- https://medlineplus.gov/infectiousmononucleosis.html
+- https://medlineplus.gov/hiv.html
+- https://medlineplus.gov/h1n1fluswineflu.html",yes,B,"Answer B is well grounded with direct citations from provided documents and URLs, enhancing trustworthiness. Both answers are relevant, safe, clear, and avoid hallucinations, but B's explicit sourcing and alignment with context give it an edge.",4.4,5.0,5,2,5,5,5,5,5,5,5,5
+shortness of breath wheezing,"1) Possible related topics:
+- Asthma
+- Allergic reactions
+- Chronic obstructive pulmonary disease (COPD)
+- Respiratory infections
+
+2) Informational explanation:
+Shortness of breath and wheezing occur when airflow is partially blocked or narrowed in the airways. This can be due to inflammation, allergies, infections, or other respiratory conditions.
+
+3) General self-care:
+- Avoid known triggers like smoke, allergens, or irritants.
+- Use a humidifier to keep air moist.
+- Practice slow, deep breathing techniques.
+- Stay hydrated and rest.
+
+4) When to seek care:
+- Difficulty speaking or severe breathlessness
+- Blue lips or face
+- Chest pain or tightness
+- Wheezing with swelling of the face or throat
+- Symptoms worsening rapidly or not improving with usual treatments","1) Related topics: Asthma; Alpha-1 Antitrypsin Deficiency; Anaphylaxis; Arrhythmia; Acute Bronchitis
+
+2) What these symptoms could relate to: Shortness of breath and wheezing are common symptoms in conditions such as asthma (airway inflammation and swelling), Alpha-1 Antitrypsin Deficiency (a genetic risk for lung disease), anaphylaxis (severe allergic reaction), arrhythmia (irregular heartbeat affecting breathing), and acute bronchitis (inflammation of bronchial tubes).
+
+3) General self-care: Avoid exposure to known triggers such as allergens, smoke, and pollution. Use prescribed inhalers or medications if you have a known respiratory condition. Rest and stay hydrated. Avoid strenuous exercise if it worsens symptoms.
+
+4) When to seek care: Seek immediate medical care if symptoms are severe or worsening, or if you experience emergency warning signs such as trouble breathing, chest pain, confusion, or persistent high fever.
+
+5) Sources: 
+- https://medlineplus.gov/asthma.html
+- https://medlineplus.gov/alpha1antitrypsindeficiency.html
+- https://medlineplus.gov/anaphylaxis.html
+- https://medlineplus.gov/arrhythmia.html
+- https://medlineplus.gov/acutebronchitis.html",yes,B,"Both answers are relevant and clear. Answer B is better grounded with explicit citations matching the provided context, including multiple related conditions and clear seek-care guidance. Answer A is accurate and safe but lacks citations and detailed grounding.",4.4,5.0,5,2,5,5,5,5,5,5,5,5
+dizziness fainting,"1) Possible related topics:
+- Low blood pressure (orthostatic hypotension)
+- Dehydration
+- Inner ear issues (vestibular disorders)
+- Heart rhythm problems
+- Hypoglycemia (low blood sugar)
+
+2) Informational explanation:
+Dizziness and fainting can result from a temporary drop in blood flow to the brain. Causes vary widely, including dehydration, sudden position changes, low blood sugar, or heart-related issues. Inner ear problems can also affect balance and cause dizziness.
+
+3) General self-care:
+- Stay hydrated by drinking plenty of fluids.
+- Rise slowly from sitting or lying positions.
+- Eat regular meals to maintain blood sugar.
+- Avoid sudden head movements.
+- Rest if feeling lightheaded.
+
+4) When to seek care:
+- Fainting with chest pain, shortness of breath, or palpitations
+- Repeated fainting episodes
+- Severe dizziness that does not improve
+- Weakness, numbness, or difficulty speaking
+- Head injury after a fall or fainting episode","1) Related topics:
+- Arrhythmia
+- Atrial Fibrillation
+- Low Blood Pressure
+- Fainting
+
+2) What these symptoms could relate to:
+Dizziness and fainting can be symptoms of arrhythmias such as atrial fibrillation, low blood pressure, or sudden drops in blood flow to the brain causing fainting. These conditions affect heart rhythm or blood circulation.
+
+3) General self-care:
+- Sit or lie down immediately if feeling dizzy or faint.
+- Avoid standing up too quickly.
+- Stay hydrated and avoid overheating.
+- Rest and avoid strenuous activity until symptoms improve.
+
+4) When to seek care:
+Seek medical care if symptoms are severe, worsening, or accompanied by trouble breathing, chest pain, confusion, or persistent high fever.
+
+5) Sources:
+https://medlineplus.gov/arrhythmia.html  
+https://medlineplus.gov/atrialfibrillation.html  
+https://medlineplus.gov/lowbloodpressure.html  
+https://medlineplus.gov/fainting.html",yes,B,"Both answers are relevant and clear. A provides general causes and advice but lacks citations and direct grounding in the provided documents. B directly cites MedlinePlus sources aligned with the context, improving grounding and hallucination control. Both provide safe advice and seek-care guidance.",4.0,5.0,5,1,5,4,5,5,5,5,5,5
+vomiting stomach pain,"1) Possible related topics:
+- Gastroenteritis (stomach flu)
+- Food poisoning
+- Gastritis or stomach ulcer
+- Appendicitis
+- Gallbladder issues
+
+2) Informational explanation:
+Vomiting and stomach pain can result from infections, inflammation, or irritation in the digestive tract. Causes range from mild (like indigestion or viral infections) to more serious conditions requiring medical attention.
+
+3) General self-care:
+- Stay hydrated with small sips of water or oral rehydration solutions.
+- Rest and avoid solid foods until vomiting subsides, then reintroduce bland foods gradually.
+- Avoid alcohol, caffeine, and spicy or fatty foods.
+- Use over-the-counter antacids if appropriate and no contraindications exist.
+
+4) When to seek care:
+- Severe or worsening abdominal pain
+- Persistent vomiting lasting more than 24 hours
+- Blood in vomit or stool
+- Signs of dehydration (dizziness, dry mouth, decreased urination)
+- High fever or confusion","1) Related topics:
+- Cryptosporidiosis
+- Dengue
+- Polio and Post-Polio Syndrome
+- Anaphylaxis
+
+2) What these symptoms could relate to:
+Vomiting and stomach pain are common symptoms in several conditions such as Cryptosporidiosis (a parasitic infection), Dengue (a viral infection transmitted by mosquitoes), Polio and Post-Polio Syndrome, and can also be part of a severe allergic reaction like Anaphylaxis.
+
+3) General self-care:
+- Stay hydrated by drinking clear fluids.
+- Rest as much as possible.
+- Avoid solid foods until vomiting subsides, then reintroduce bland foods gradually.
+- Monitor symptoms closely.
+
+4) When to seek care:
+Seek medical care if symptoms are severe, worsening, or if you experience emergency warning signs such as:
+- Trouble breathing or chest pain
+- Confusion or altered consciousness
+- Persistent high fever
+- Signs of dehydration (e.g., dizziness, very dry mouth)
+- Vomiting that does not stop
+
+5) Sources:
+- https://medlineplus.gov/cryptosporidiosis.html
+- https://medlineplus.gov/dengue.html
+- https://medlineplus.gov/polioandpostpoliosyndrome.html
+- https://medlineplus.gov/anaphylaxis.html
+
+If symptoms persist or worsen, please consult a healthcare professional promptly.",yes,A,"Answer A is more directly relevant to the common causes of vomiting and stomach pain, providing a clear, well-structured explanation and appropriate safety advice. It lacks explicit citations but avoids unsupported claims. Answer B is well grounded with citations and aligns with the provided context but lists less common causes that may be less relevant to the general query. Both answers provide good safety guidance. Overall, A better matches the query and is clearer.",4.2,4.4,5,2,5,4,5,3,5,5,5,4
+fatigue headache,"1) Possible related topics:
+- Dehydration
+- Tension headache or migraine
+- Sleep disturbances
+- Viral infections (e.g., cold or flu)
+
+2) Informational explanation:
+Fatigue and headache are common symptoms that can result from various causes including lack of sleep, stress, dehydration, or mild infections. They often improve with rest and hydration but can sometimes indicate underlying health issues.
+
+3) General self-care:
+- Ensure adequate hydration by drinking water
+- Get sufficient restful sleep
+- Manage stress through relaxation techniques
+- Take over-the-counter pain relievers if appropriate and as directed
+
+4) When to seek care:
+- Severe or sudden headache
+- Headache with fever, neck stiffness, or confusion
+- Persistent fatigue and headache lasting more than a few days
+- Symptoms worsening or accompanied by vision changes, weakness, or difficulty speaking","1) Related topics:
+- H1N1 Flu (Swine Flu)
+- Polio and Post-Polio Syndrome
+- Lyme Disease
+- Common Cold
+- Infectious Mononucleosis
+
+2) What these symptoms could relate to:
+Fatigue and headache are common symptoms in several infections such as swine flu, polio, Lyme disease, common cold, and infectious mononucleosis. These symptoms alone are nonspecific and can be part of many viral or bacterial illnesses.
+
+3) General self-care:
+- Rest and stay hydrated.
+- Use over-the-counter pain relievers like acetaminophen or ibuprofen for headache and body aches.
+- Maintain good hygiene to prevent spread of infections.
+- Monitor symptoms for any changes or worsening.
+
+4) When to seek care:
+Seek medical care if symptoms become severe or worsen, or if you experience emergency warning signs such as:
+- Trouble breathing
+- Chest pain
+- Confusion
+- Persistent high fever
+
+5) Sources:
+- https://medlineplus.gov/h1n1fluswineflu.html
+- https://medlineplus.gov/polioandpostpoliosyndrome.html
+- https://medlineplus.gov/lymedisease.html
+- https://medlineplus.gov/commoncold.html
+- https://medlineplus.gov/infectiousmononucleosis.html",yes,B,"Both answers are relevant and clear. Answer B is better grounded with direct citations from the provided documents, improving its grounding score. Both provide safe advice and appropriate seek-care guidance.",4.4,5.0,5,2,5,5,5,5,5,5,5,5
