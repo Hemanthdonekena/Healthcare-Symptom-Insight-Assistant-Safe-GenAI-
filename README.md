@@ -1,7 +1,6 @@
 # Healthcare-Symptom-Insight-Assistant-Safe-GenAI-
 CS687 - CapStone
 
-# Healthcare Symptom Insight Assistant (Safe GenAI
 ## Overview
 The Healthcare Symptom Insight Assistant is a safe and explainable Generative AI project designed to provide educational symptom-related information without giving medical diagnoses. The system uses Retrieval-Augmented Generation (RAG) to return grounded responses from trusted healthcare sources while reducing hallucinations and unsafe outputs.
 
